@@ -33,7 +33,7 @@ class Sertifikat extends CI_Controller {
             $peserta['skor'] = $skor;
 
             // $peserta['no_doc'] = "{$peserta['no_doc']}/TOAFL/ACP/{$peserta['bulan']}/{$peserta['tahun']}";
-            $peserta['no_doc'] = "{$peserta['tahun']}/{$peserta['no_doc']}";
+            $peserta['no_doc'] = "AC/ES/{$peserta['tahun']}/1{$peserta['no_doc']}";
         }
 
         // $this->load->view("pages/layout/header-sertifikat", $peserta);
